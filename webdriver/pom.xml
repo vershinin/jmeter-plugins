@@ -99,6 +99,13 @@
             <artifactId>selenium-htmlunit-driver</artifactId>
             <version>${selenium.version}</version>
         </dependency>
+
+		 <dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.2.1</version>
+		</dependency> 
+        
         <!-- begin need this libraries for HtmlUnitDriver -->
         <dependency>
             <groupId>xml-apis</groupId>
@@ -276,7 +283,7 @@
                             <overWriteIfNewer>true</overWriteIfNewer>
                             <includeArtifactIds>
                                 selenium-support,selenium-api,selenium-remote-driver,selenium-ie-driver,selenium-firefox-driver,selenium-chrome-driver,selenium-htmlunit-driver,gson,
-                                guava,json,commons-exec,jsyntaxpane,htmlunit,htmlunit-core-js,nekohtml,cssparser,jetty-websocket,xercesImpl,xml-apis,sac,httpclient,httpmime,httpcore
+                                guava,json,commons-exec,jsyntaxpane,htmlunit,htmlunit-core-js,nekohtml,cssparser,jetty-websocket,xercesImpl,xml-apis,sac,httpclient,httpmime,httpcore,phantomjsdriver,selenium-java
                             </includeArtifactIds>
                         </configuration>
                     </execution>
